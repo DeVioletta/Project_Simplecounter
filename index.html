@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Counter</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="container">
-        <h1>Simple Counter</h1>
-        <div class="container-second">
-            <button id="minus-btn" onclick="minus()">-</button>
-            <h2 id="number">0</h2>
-            <button id="increment-btn" onclick="increment()">+</button>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Simple Counter</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Simple Counter</h1>
+            <div class="container-second">
+                <button id="minus-btn">-</button>
+                <h2 id="number">0</h2>
+                <button id="increment-btn">+</button>
+            </div>
+
+            <button id="save-btn">SAVE</button>
+            <button id="reset-btn">RESET</button>
+            <h2 id="save-el">Reminder :</h2>
+            <h2 id="total-el">Total :</h2>
         </div>
-        
-        <button id="save-btn" onclick="save()">SAVE</button>
-        <button id="reset-btn" onclick="reset()">RESET</button>
-        <h2 id="save-el">Reminder : </h2>
-        <h2 id="total-el">Total : </h2>
-    </div>
-    <script src="index.js"></script>
-</body>
+        <script src="index.js"></script>
+    </body>
 </html>
